@@ -1,0 +1,245 @@
+body {
+    background-color: #f4f6f8;
+}
+
+a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    width: 180px;
+}
+
+.navbar-brand {
+    padding: 10px 20px 10px 10px;
+}
+
+.nav .search .search-form .form-control {
+    background: rgba(255, 255, 255, 0.08);
+    border: none;
+    height: 50px;
+    padding: 6px 15px 6px 40px;
+    border-radius: 0;
+    color: white;
+}
+
+.navbar-right {
+    margin-right: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #20c4ab;
+    border-color: #20c4ab;
+}
+
+.main {
+    background: url(../upload/home_casestudybg.jpg) center top no-repeat #353b65;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+h3.search-title {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+}
+
+p.search-tag-line {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    position: relative;
+    z-index: 44;
+}
+
+form.index-search-form {
+    position: relative;
+    z-index: 44;
+    margin: 40px 0 0;
+    text-align: center;
+}
+
+form.index-search-form .search-term {
+    color: #858c91;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-right: 10px;
+    padding: 12px;
+    width: 72%;
+}
+
+form.index-search-form .search-btn {
+    background-color: #20c4ab;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 14px 30px 15px;
+    text-transform: uppercase;
+}
+
+.nav-tabs li {
+    margin-right: 10px;
+}
+
+.nav-tabs li a {
+    color: #666;
+}
+
+.tab-inner {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.list-item {
+    margin: 0;
+    padding: 15px 0 35px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.list-item-txt {
+    display: flex;
+}
+
+.item-txts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50px;
+}
+
+.connter {
+    background-color: #20c4ab;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item-navs {
+    margin-left: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-navs ul {
+    display: flex;
+}
+
+.item-navs ul li {
+    margin-right: 15px;
+}
+
+.title {
+    display: inline;
+    margin: 5px 5px 0 0;
+    font-size: 16px;
+    position: relative;
+}
+
+.title a span:nth-child(2) {
+    position: absolute;
+    right: 5px;
+    bottom: -15px;
+}
+
+.navdi {
+    display: flex;
+    justify-content: center;
+}
+
+.panel {
+    border-top: 0;
+    margin-bottom: 17px;
+    background-color: #fff;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.panel img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 1px;
+}
+
+.new {
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+.news {
+    padding: 10px;
+}
+
+.news h3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.news .news-txt {
+    display: flex;
+    margin: 17px 10px;
+    flex-flow: row wrap;
+}
+
+.news-txts {
+    margin: 10px 0;
+}
+
+.biaoqian {
+    background-color: #20c4ab;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+.footer {
+    width: 100%;
+    color: #aaa;
+    background-color: #555;
+    margin-top: 25px;
+}
+
+.address {
+    line-height: 50px;
+    text-align: center;
+    background: #393939;
+    margin: 0
+}
+
+.address a {
+    color: #aaa;
+}
