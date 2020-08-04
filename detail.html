@@ -28,7 +28,7 @@ function showHint(str)
       document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
     }
   }
-  xmlhttp.open("GET","/try/ajax/gethint.php?q="+str,true);
+  xmlhttp.open("GET","/ajax/gethint.php?q="+str,true);
   xmlhttp.send();
 }
 </script>
