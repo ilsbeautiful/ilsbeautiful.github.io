@@ -30,7 +30,7 @@ function showHint(str)
       document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
     }
   }
-  xmlhttp.open("GET","ajax/gethint.php?q="+str,true);
+  xmlhttp.open("GET","ajax/gethint.php",true);
   xmlhttp.send();
 }
 </script>
