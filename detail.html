@@ -2,6 +2,17 @@
 <html>
 <head>
 <meta charset="utf-8">
+
+</head>
+<body>
+
+<h3>在输入框中尝试输入字母 a:</h3>
+<form action=""> 
+输入姓名: <input type="text" id="txt1" onkeyup="showHint(this.value)" />
+</form>
+<p>提示信息: <span id="txtHint"></span></p> 
+
+</body>
 <script>
 function showHint(str)
 {
@@ -23,14 +34,4 @@ function showHint(str)
   xmlhttp.send();
 }
 </script>
-</head>
-<body>
-
-<h3>在输入框中尝试输入字母 a:</h3>
-<form action=""> 
-输入姓名: <input type="text" id="txt1" onkeyup="showHint(this.value)" />
-</form>
-<p>提示信息: <span id="txtHint"></span></p> 
-
-</body>
 </html>
